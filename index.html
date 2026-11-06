@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Da Gino al Parlamento: Trattoria dal Cavalier Gino, Roma</title>
+<meta name="description" content="Da Gino al Parlamento (Trattoria dal Cavalier Gino), Vicolo Rosini 4, Roma. Cucina romana dal 1963, a pochi passi da Montecitorio: cacio e pepe, carbonara, trippa. Prenotazioni: 06 687 3434.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;0,900;1,600;1,700&family=Public+Sans:wght@400;500;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#carta" data-i18n="skip">Vai alla carta</a>
+<div class="progress-rule" id="progressRule" aria-hidden="true"></div>
+
+<!-- ============ UTIL STRIP ============ -->
+<div class="util-strip">
+  <span class="util-item util-addr">Vicolo Rosini 4 · 00186 Roma</span>
+  <span class="util-item" data-i18n="utilNear">A pochi passi da Montecitorio</span>
+  <a class="util-item util-phone" href="tel:+39066873434">06 687 3434</a>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="site-nav" id="top">
+  <a class="wordmark" href="#top" aria-label="Da Gino al Parlamento">
+    <span class="wordmark-main">Da Gino <span class="wordmark-al">al Parlamento</span></span>
+    <span class="wordmark-sub" data-i18n="wordmarkSub">Trattoria dal Cavalier Gino · dal 1963</span>
+  </a>
+  <nav class="nav-links" aria-label="Navigazione principale">
+    <a href="#piatti" data-i18n="navSig">I piatti</a>
+    <a href="#carta" data-i18n="navMenu">La carta</a>
+    <a href="#storia" data-i18n="navStory">La storia</a>
+    <a href="#visita" data-i18n="navVisit">Visita</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="lang-toggle" role="group" aria-label="Language / Lingua">
+      <button type="button" class="lang-btn is-active" data-lang="it" aria-pressed="true">IT</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn-nav" href="tel:+39066873434">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>06 687 3434</span>
+    </a>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" aria-label="Da Gino al Parlamento">
+  <div class="hero-arches" aria-hidden="true">
+    <svg class="arch-ghost arch-a" viewBox="0 0 200 260" fill="none"><path d="M10 250 V110 A90 90 0 0 1 190 110 V250" stroke="currentColor" stroke-width="1.5"/></svg>
+    <svg class="arch-ghost arch-b" viewBox="0 0 200 260" fill="none"><path d="M10 250 V110 A90 90 0 0 1 190 110 V250" stroke="currentColor" stroke-width="1.5"/></svg>
+  </div>
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker reveal"><span class="kicker-rule" aria-hidden="true"></span><span data-i18n="heroKicker">Roma · Vicolo Rosini 4, dal 1963</span></p>
+      <h1 class="hero-title reveal"><span data-i18n="heroTitleA">La cucina romana,</span> <span class="ht-b" data-i18n="heroTitleB">all’ordine del giorno.</span></h1>
+      <p class="hero-sub reveal" data-i18n="heroSub">Una trattoria storica nel cuore della Capitale, a pochi passi da Montecitorio: cucina romana con gusto e semplicità, la stessa dal 1963.</p>
+      <div class="hero-ctas reveal">
+        <a class="btn btn-primary" href="tel:+39066873434" data-i18n="heroCtaCall">Prenota per telefono</a>
+        <a class="btn btn-ghost" href="#carta" data-i18n="heroCtaMenu">Vedi la carta</a>
+      </div>
+      <p class="hero-rating reveal"><span class="rating-star" aria-hidden="true">★</span> <span data-i18n="heroRating">4,5 · oltre 3.200 recensioni su Google</span></p>
+    </div>
+    <div class="hero-media reveal">
+      <div class="hero-scene" id="heroScene">
+        <figure class="hero-frame" id="heroTilt">
+          <img class="hero-img" id="heroImg" src="assets/vicolo.webp" alt="Il vicolo Rosini, con i tavoli della trattoria" fetchpriority="high">
+        </figure>
+        <aside class="verbale-card" aria-label="Valutazione">
+          <p class="verbale-label" data-i18n="cardLabel">Dal registro degli ospiti</p>
+          <p class="verbale-score">4,5 <span class="rating-star" aria-hidden="true">★</span></p>
+          <p class="verbale-text" data-i18n="cardText">oltre 3.200 recensioni su Google</p>
+          <p class="verbale-badge">Travellers’ Choice 2026 · TripAdvisor</p>
+        </aside>
+      </div>
+      <p class="hero-caption" data-i18n="heroCaption">Il vicolo verso Montecitorio (immagine d’atmosfera)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST LEDGER ============ -->
+<section class="ledger" aria-label="In breve">
+  <div class="ledger-grid">
+    <div class="ledger-item reveal"><p class="ledger-num">1963</p><p class="ledger-text" data-i18n="trust1">La stessa cucina romana, da allora</p></div>
+    <div class="ledger-item reveal"><p class="ledger-num" data-i18n="trust2N">Famiglia</p><p class="ledger-text" data-i18n="trust2">Conduzione familiare, sala piccola</p></div>
+    <div class="ledger-item reveal"><p class="ledger-num" data-i18n="trust3N">Senza glutine</p><p class="ledger-text" data-i18n="trust3">Opzioni senza glutine, primi e secondi</p></div>
+    <div class="ledger-item reveal"><p class="ledger-num" data-i18n="trust4N">Su prenotazione</p><p class="ledger-text" data-i18n="trust4">I posti sono pochi: meglio telefonare</p></div>
+  </div>
+</section>
+
+<!-- ============ SIGNATURES ============ -->
+<section class="section signatures" id="piatti">
+  <header class="section-head reveal">
+    <h2 class="section-title"><span class="h-num">N. I</span><span data-i18n="sigTitle">I piatti della casa</span></h2>
+    <p class="section-intro" data-i18n="sigIntro">Pochi piatti, quelli romani, fatti come si sono sempre fatti. Scorri il banco: sono i piatti che gli ospiti nominano da sessant’anni.</p>
+  </header>
+  <div class="dish-track" id="dishTrack">
+    <article class="dish-card reveal">
+      <figure class="dish-frame"><img src="assets/cacio-e-pepe.webp" alt="Tonnarelli cacio e pepe" loading="lazy"></figure>
+      <div class="dish-body">
+        <h3 class="dish-name">Tonnarelli cacio e pepe</h3>
+        <p class="dish-desc" data-i18n="dish1D">Pecorino romano e pepe nero sui tonnarelli: la prova del nove di ogni trattoria romana: qui la superano da sempre.</p>
+      </div>
+    </article>
+    <article class="dish-card reveal">
+      <figure class="dish-frame"><img src="assets/carbonara.webp" alt="Spaghetti alla carbonara" loading="lazy"></figure>
+      <div class="dish-body">
+        <h3 class="dish-name">La carbonara</h3>
+        <p class="dish-desc" data-i18n="dish2D">Guanciale, uovo, pecorino e pepe. Niente panna, niente variazioni: la carbonara come la si fa a Roma.</p>
+      </div>
+    </article>
+    <article class="dish-card reveal">
+      <figure class="dish-frame"><img src="assets/trippa.webp" alt="Trippa alla romana" loading="lazy"></figure>
+      <div class="dish-body">
+        <h3 class="dish-name">Trippa alla romana</h3>
+        <p class="dish-desc" data-i18n="dish3D">Nel sugo di pomodoro, con la menta e il pecorino: il quinto quarto, cucinato con pazienza.</p>
+      </div>
+    </article>
+    <article class="dish-card reveal">
+      <figure class="dish-frame"><img src="assets/carciofi.webp" alt="Carciofi in padella" loading="lazy"></figure>
+      <div class="dish-body">
+        <h3 class="dish-name">I carciofi</h3>
+        <p class="dish-desc" data-i18n="dish4D">Crudi e cotti, secondo la stagione e il mercato: a Roma il carciofo non è un contorno, è un’istituzione.</p>
+      </div>
+    </article>
+    <article class="dish-card reveal">
+      <figure class="dish-frame"><img src="assets/abbacchio.webp" alt="Abbacchio al forno con patate" loading="lazy"></figure>
+      <div class="dish-body">
+        <h3 class="dish-name">Abbacchio</h3>
+        <p class="dish-desc" data-i18n="dish5D">L’abbacchio delle feste romane, con le patate al rosmarino: uno dei secondi che gli ospiti ricordano.</p>
+      </div>
+    </article>
+  </div>
+  <p class="track-hint" data-i18n="trackHint">Scorri per vedere i piatti</p>
+</section>
+
+<!-- ============ MENU / LA CARTA ============ -->
+<section class="section menu-section" id="carta">
+  <header class="section-head reveal">
+    <h2 class="section-title"><span class="h-num">N. II</span><span data-i18n="menuTitle">La carta</span></h2>
+    <p class="section-intro" data-i18n="menuIntro">Il menù della casa, messo agli atti: i piatti che la cucina propone ogni giorno, dalle schede e dalle recensioni del locale.</p>
+  </header>
+  <div class="doc-wrap reveal">
+    <div class="doc-sheet doc-sheet-b" aria-hidden="true"></div>
+    <div class="doc-sheet doc-sheet-a" aria-hidden="true"></div>
+    <div class="doc-card">
+      <div class="menu-groups">
+        <div class="menu-group">
+          <h3 class="menu-group-title"><span class="mg-num">1.</span> <span data-i18n="g1">Antipasti</span></h3>
+          <ul class="menu-list">
+            <li><span class="mi-name" data-i18n="mCarcName">Carciofi, secondo stagione</span><span class="mi-desc" data-i18n="mCarcD">crudi e cotti, come vuole la tradizione</span></li>
+            <li><span class="mi-name">Puntarelle con le alici</span><span class="mi-desc" data-i18n="mPuntD">quando è stagione</span></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3 class="menu-group-title"><span class="mg-num">2.</span> <span data-i18n="g2">Primi</span></h3>
+          <ul class="menu-list">
+            <li><span class="mi-name">Tonnarelli cacio e pepe</span></li>
+            <li><span class="mi-name">Spaghetti alla carbonara</span></li>
+            <li><span class="mi-name">Rigatoni alla gricia</span></li>
+            <li><span class="mi-name">Amatriciana</span></li>
+            <li><span class="mi-name">Tonnarelli alla ciociara</span></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3 class="menu-group-title"><span class="mg-num">3.</span> <span data-i18n="g3">Secondi</span></h3>
+          <ul class="menu-list">
+            <li><span class="mi-name">Involtini alla romana</span></li>
+            <li><span class="mi-name">Trippa alla romana con la menta</span></li>
+            <li><span class="mi-name">Saltimbocca alla romana</span></li>
+            <li><span class="mi-name">Pollo alla romana con i peperoni</span></li>
+            <li><span class="mi-name">Abbacchio</span></li>
+            <li><span class="mi-name">Coda alla vaccinara</span></li>
+          </ul>
+        </div>
+        <div class="menu-group">
+          <h3 class="menu-group-title"><span class="mg-num">4.</span> <span data-i18n="g4">Contorni</span></h3>
+          <ul class="menu-list">
+            <li><span class="mi-desc mi-line" data-i18n="mContLine">Contorni del giorno, secondo il mercato e la stagione.</span></li>
+          </ul>
+          <h3 class="menu-group-title mg-second"><span class="mg-num">5.</span> <span data-i18n="g5">Per chiudere</span></h3>
+          <ul class="menu-list">
+            <li><span class="mi-name">Tiramisù</span></li>
+            <li><span class="mi-name">Fichi d’India sbucciati</span><span class="mi-desc" data-i18n="mFichiD">quando è stagione: la sorpresa finale della casa</span></li>
+            <li><span class="mi-name" data-i18n="mVinoName">Vino della casa</span><span class="mi-desc" data-i18n="mVinoD">rosso, anche sfuso, nel quartino</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="menu-note" data-i18n="menuNote">Prezzi in sala. La sala è piccola e la cucina lavora al momento: per i piatti del giorno e le disponibilità, la parola definitiva è quella della casa: telefonate.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="section story" id="storia">
+  <div class="story-grid">
+    <div class="story-copy">
+      <header class="section-head reveal">
+        <h2 class="section-title"><span class="h-num">N. III</span><span data-i18n="storyTitle">Dagli atti della casa</span></h2>
+      </header>
+      <p class="story-year" aria-hidden="true">1963</p>
+      <p class="reveal" data-i18n="storyP1">Nel 1963, in un vicolo di pochi metri dietro via del Corso, apre una trattoria che prende il nome dal Palazzo che ha di fronte: Montecitorio. Da allora la famiglia che l’ha aperta continua a cucinare la Roma di sempre, a pranzo e a cena, per chi lavora intorno al Parlamento e per chi arriva da lontano in cerca della città vera.</p>
+      <p class="reveal" data-i18n="storyP2">La sala è piccola, sotto una volta dipinta, con le pareti colorate e i tavoli vicini: non aspettatevi un locale elegante o di tendenza, ma un’osteria autentica, dove il tempo sembra fermo e le porzioni sono quelle generose di una volta.</p>
+      <p class="reveal" data-i18n="storyP3">Si mangia dentro o fuori, nei tavolini sul vicolo, con il vino della casa nel quartino. I posti sono pochi e la sala si riempie in fretta: la casa consiglia di prenotare, e la prenotazione passa dal telefono, come nel 1963.</p>
+    </div>
+    <figure class="story-frame reveal">
+      <img src="assets/vino-casa.webp" alt="Il vino della casa e il pane, sul tavolo della trattoria" loading="lazy">
+      <figcaption data-i18n="storyCaption">Il vino della casa (immagine d’atmosfera)</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ PRACTICAL ============ -->
+<section class="section practical">
+  <header class="section-head reveal">
+    <h2 class="section-title"><span class="h-num">N. IV</span><span data-i18n="pracTitle">Prima di venire</span></h2>
+  </header>
+  <div class="tile-grid">
+    <article class="tile reveal">
+      <h3 class="tile-title" data-i18n="tile1T">Senza glutine</h3>
+      <p class="tile-text" data-i18n="tile1D">Molti primi e secondi anche in versione senza glutine: gli ospiti celiaci raccontano proposte varie e attenzione vera. Ditelo quando prenotate.</p>
+    </article>
+    <article class="tile reveal">
+      <h3 class="tile-title" data-i18n="tile2T">Per chi non mangia carne</h3>
+      <p class="tile-text" data-i18n="tile2D">Carciofi, puntarelle e le paste al pecorino sono piatti di casa: la scheda del locale segnala opzioni vegetariane.</p>
+    </article>
+    <article class="tile reveal">
+      <h3 class="tile-title" data-i18n="tile3T">Dentro e fuori</h3>
+      <p class="tile-text" data-i18n="tile3D">La sala sotto la volta dipinta, oppure i tavoli nel vicolo, all’ombra: il vicolo è una stradina tranquilla del centro.</p>
+    </article>
+    <article class="tile reveal">
+      <h3 class="tile-title" data-i18n="tile4T">Accessibilità</h3>
+      <p class="tile-text" data-i18n="tile4D">La scheda del locale indica l’accesso in sedia a rotelle. Per esigenze particolari, una telefonata prima di venire è la cosa più semplice.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ VISIT ============ -->
+<section class="section visit" id="visita">
+  <header class="section-head reveal">
+    <h2 class="section-title"><span class="h-num">N. V</span><span data-i18n="visitTitle">La visita</span></h2>
+  </header>
+  <div class="visit-grid">
+    <div class="visit-info reveal">
+      <p class="visit-label" data-i18n="addrLabel">Indirizzo</p>
+      <p class="visit-addr">Vicolo Rosini 4<br>00186 Roma RM</p>
+      <p class="visit-near" data-i18n="visitNear">Tra il Pantheon e via del Corso, a pochi passi da Palazzo Montecitorio.</p>
+      <p class="visit-label" data-i18n="phoneLabel">Prenotazioni: solo per telefono</p>
+      <p class="visit-phone"><a href="tel:+39066873434">06 687 3434</a></p>
+      <p class="visit-book" data-i18n="bookNote">La sala si riempie in fretta, soprattutto a pranzo: prenotate in anticipo.</p>
+      <div class="visit-actions">
+        <a class="btn btn-primary" href="tel:+39066873434" data-i18n="callBtn">Chiama ora</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Da+Gino+al+Parlamento+Vicolo+Rosini+4+Roma" target="_blank" rel="noopener" data-i18n="dirBtn">Indicazioni stradali</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/dalcavaliergino/" target="_blank" rel="noopener">Instagram · @dalcavaliergino</a>
+      </div>
+    </div>
+    <div class="hours-card reveal">
+      <p class="visit-label" data-i18n="hoursLabel">Orari: le sedute</p>
+      <table class="hours-table">
+        <tbody>
+          <tr><th scope="row" data-i18n="dayMon">Lunedì</th><td data-i18n="closed">Chiuso</td></tr>
+          <tr><th scope="row" data-i18n="dayTueSun">Martedì - Domenica</th><td>12:30 - 15:00<br>18:30 - 23:00</td></tr>
+        </tbody>
+      </table>
+      <p class="hours-note" data-i18n="hoursNote">Orari secondo la scheda TripAdvisor del locale. Altri elenchi riportano giorni e orari diversi (domenica chiusa, cena dalle 20:00): per essere sicuri, confermate per telefono.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <p class="foot-name">Da Gino al Parlamento: Trattoria dal Cavalier Gino</p>
+  <p class="foot-line">Vicolo Rosini 4, 00186 Roma<br><a href="tel:+39066873434">06 687 3434</a></p>
+  <p class="foot-demo" data-i18n="footDemo">Pagina dimostrativa non ufficiale, realizzata come concept. Immagini d’atmosfera generate; piatti, orari e informazioni dalle schede pubbliche del locale, da verificare con la casa.</p>
+</footer>
+
+<!-- ============ MOBILE ACTION BAR ============ -->
+<nav class="mobile-bar" aria-label="Azioni rapide">
+  <a href="tel:+39066873434" class="mb-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span data-i18n="barCall">Chiama</span>
+  </a>
+  <a href="#carta" class="mb-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+    <span data-i18n="barMenu">Carta</span>
+  </a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Da+Gino+al+Parlamento+Vicolo+Rosini+4+Roma" target="_blank" rel="noopener" class="mb-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+    <span data-i18n="barDir">Indicazioni</span>
+  </a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
